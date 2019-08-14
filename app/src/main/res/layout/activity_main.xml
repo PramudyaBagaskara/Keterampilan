@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/card1"
+        android:layout_below="@+id/logo">
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_book_black_24dp"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Buy Book"/>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginLeft="220dp"
+        android:id="@+id/card2"
+        android:layout_below="@+id/logo">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_thumb_up_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Recommendation"/>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/card3"
+        android:layout_below="@+id/card1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_monetization_on_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Best Selling"/>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginLeft="220dp"
+        android:id="@+id/card4"
+        android:layout_below="@+id/card2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_new_releases_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="New Book"/>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/card5"
+        android:layout_below="@+id/card3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_public_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Import Book"/>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card6"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/card4"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="15dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_exit_to_app_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Exit" />
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

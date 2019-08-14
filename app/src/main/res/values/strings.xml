@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Keterampilan</string>
+    <string-array name="planets_array">
+        <item>Sun Is Also A Star</item>
+        <item>Girl Who Drank The Moon</item>
+        <item>First &amp; Then</item>
+        <item>Girl Stop Apologizing</item>
+        <item>A World Without You </item>
+        <item>Sassy Stalker</item>
+        <item>Kita Dua Kurva Saling Terbuka</item>
+        <item>Mencari Simetri</item>
+        <item>Sejumlah Pertanyaan Tentang Cinta</item>
+        <item>An American In Scotland</item>
+        <item>A Poem I Wrote For You</item>
+        <item>Srimenanti</item>
+        <item>Septictank</item>
+        <item>Sepasang Sepatu Tua</item>
+        <item>That Night</item>
+        <item>Hujan</item>
+        <item>Negeri Di Ujung Tanduk</item>
+        <item>Hafalan Shalat Delisa </item>
+        <item>Eliana</item>
+        <item>Negeri Para Bedebah</item>
+    </string-array>
+
+    <string-array name="jenpen">
+        <item>JNE</item>
+        <item>TIKI</item>
+        <item>Wahana Logistic</item>
+        <item>ELS Expres</item>
+        <item>J&amp;T Express</item>
+        <item>Go-Send</item>
+        <item>Si Cepat</item>
+        <item>Pos Indonesia</item>
+    </string-array>
+</resources>

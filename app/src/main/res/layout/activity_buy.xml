@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BuyActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/buy"
+        android:scaleType="fitXY"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy Book"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="italic"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"/>
+
+            <EditText
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat"/>
+
+            <EditText
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jumlah"/>
+
+            <EditText
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:inputType="numberDecimal"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Judul Buku"/>
+
+            <Spinner
+                android:layout_marginLeft="70dp"
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Pengiriman"/>
+
+            <Spinner
+                android:layout_marginLeft="70dp"
+                android:id="@+id/aspinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+
+
+            <CheckBox
+                android:layout_marginTop="30dp"
+                android:text="Saya setuju tentang kebijkan dan privasi PT Gramedia"
+                />
+
+
+
+        <Button
+            android:id="@+id/btnby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Buy Now"
+            />
+
+    </TableLayout>
+
+
+
+
+
+</LinearLayout>
